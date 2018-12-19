@@ -20,7 +20,7 @@ const jsonGet = () => {
             hiddenCell ();
             title.innerHTML = 'Find similar images';
             message.innerHTML = '';
-            counterSec(document.getElementById('inputNum').value);
+            counterSec(document.getElementById('inputNum').innerHTML);
         }
         else if (x.status !== 200){
             console.log(new Error('Status is not 200'))
@@ -96,7 +96,7 @@ const counterSec = (t) => {
         if (i == t) {
             clearInterval(timerId);
             title.innerHTML = 'Game over';
-            setTimeout(hiddenCell, 2000);
+            setTimeout(jsonGet, 2000);
         }
         i++;
     }, 1000);
@@ -137,7 +137,7 @@ playFields.addEventListener('click', ((e) => {
                 el.classList.remove('active');
                 el.classList.add('hidden-cell');
             })
-        }, 1000);
+        }, 400);
 
         message.innerHTML = 'Ooops!!!((((';
         message.style.color = 'red';

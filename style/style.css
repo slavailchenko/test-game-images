@@ -31,6 +31,7 @@ td {
 
 .reload {
     margin: 15px auto;
+    color: blue;
 }
 
 .btn-reload {
@@ -47,4 +48,9 @@ td {
 
 .timer {
     margin: 0 20px;
+    color: red;
+}
+
+.custom-range {
+    width: auto!important;
 }

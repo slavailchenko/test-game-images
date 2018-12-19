@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test Game</title>
+    <link rel="stylesheet" type="text/css" href="./style/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <h1 class="text-center">Find similar images</h1>
+    <div class="text-center reload">
+        <button type="button" class="btn btn-outline-primary btn-reload">Reload</button>
+        <label class="input-label">Time</label>
+        <input type="number" id="inputNum" class="inputNumber" min="20" placeholder="number" value="20">
+        <span class="timer">Timer</span>
+        <div class="message"></div>
+    </div>
+
+    <table class="table table-bordered text-center play-fields"></table>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+tr {
+    height: 80px;
+}
+
+td {
+    height: 80px;
+    width: 80px;
+}
+
+.td-cell {
+    background-size: cover;
+}
+
+.hidden-cell {
+    background-image: none !important;
+    background: lightgrey;
+}
+
+.play-fields {
+    width: auto!important;
+    margin: 0 auto;
+}
+
+.reload {
+    margin: 15px auto;
+}
+
+.btn-reload {
+    margin-bottom: 10px;
+}
+
+.input-label {
+    margin-left: 20px; 
+}
+
+.inputNumber {
+    width: 100px;
+}
+
+.timer {
+    margin: 0 20px;
+}
